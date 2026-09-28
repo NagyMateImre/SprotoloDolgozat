@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "Get",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "Post",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "competition",
+        "Type": "System.Char",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sportoloId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "Delete",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "Put",
+    "RelativePath": "api/Eredmeny",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateEredmenyDTOS",
+        "Type": "sprotolo13a.Models.DTOS.UpdateEredmenyDTOS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "GetById",
+    "RelativePath": "api/Eredmeny/ById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
