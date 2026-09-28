@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sprotolo13a")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43769a540b360fa96c36e0a26c9381dcb8ffd86e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10cb50df945abb5061854eeb2558686d98a94d17")]
 [assembly: System.Reflection.AssemblyProductAttribute("sprotolo13a")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sprotolo13a")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
