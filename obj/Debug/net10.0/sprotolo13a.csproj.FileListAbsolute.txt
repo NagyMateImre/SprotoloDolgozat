@@ -34,3 +34,4 @@ C:\Users\NagyMI\source\repos\sportolo13aApi\sprotolo13a\obj\Debug\net10.0\refint
 C:\Users\NagyMI\source\repos\sportolo13aApi\sprotolo13a\obj\Debug\net10.0\sprotolo13a.pdb
 C:\Users\NagyMI\source\repos\sportolo13aApi\sprotolo13a\obj\Debug\net10.0\sprotolo13a.genruntimeconfig.cache
 C:\Users\NagyMI\source\repos\sportolo13aApi\sprotolo13a\obj\Debug\net10.0\ref\sprotolo13a.dll
+C:\Users\NagyMI\source\repos\sportolo13aApi\sprotolo13a\obj\Debug\net10.0\sprotolo13a.sourcelink.json

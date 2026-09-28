@@ -74,6 +74,16 @@
   },
   {
     "ContainingType": "sprotolo13a.Controllers.EredmenyController",
+    "Method": "GetRecords",
+    "RelativePath": "api/Eredmeny/AllRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.EredmenyController",
     "Method": "GetById",
     "RelativePath": "api/Eredmeny/ById",
     "HttpMethod": "GET",
@@ -82,6 +92,54 @@
     "Parameters": [
       {
         "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.SprotoloController",
+    "Method": "getAll",
+    "RelativePath": "api/Sprotolo/AllinfoById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.SprotoloController",
+    "Method": "Get",
+    "RelativePath": "api/Sprotolo/NameEmailByID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sprotolo13a.Controllers.SprotoloController",
+    "Method": "getrecords",
+    "RelativePath": "api/Sprotolo/RecordsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
       }

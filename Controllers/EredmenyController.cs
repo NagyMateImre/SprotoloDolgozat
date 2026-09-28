@@ -131,5 +131,25 @@ namespace sprotolo13a.Controllers
             connection.Close();
             return new { result = "Sikeres módosítás"};
         }
+
+        [HttpGet("AllRecord")]
+
+        public object GetRecords()
+        {
+            int allRecords = 0;
+
+            var connection = new MySqlConnection(ConnectionString);
+
+            connection.Open();
+            var sql = @"SELECT COUNT(*) FROM `eredmeny`;";
+
+            var cmd = new MySqlCommand(sql, connection);
+            var number = cmd.ExecuteScalar();
+
+            allRecords = Convert.ToInt32(number);
+
+            connection.Close();
+            return new { Result = allRecords };
+        }
     }
 }
